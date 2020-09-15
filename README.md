@@ -116,7 +116,6 @@ public class NullScope : IDisposable
     {
     }
 
-    /// <inheritdoc />
     public void Dispose()
     {
     }
