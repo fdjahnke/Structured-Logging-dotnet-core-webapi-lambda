@@ -3,3 +3,4 @@ StructuredLog/bin/*
 StructuredLog/obj/*
 .vs/StructuredLog/v16/.suo
 .vs/StructuredLog/config/applicationhost.config
+.vs/StructuredLog/DesignTimeBuild/.dtbcache.v2
