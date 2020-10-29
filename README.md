@@ -333,3 +333,13 @@ The result should look something like my example above.
 ![example call api in browser](images/LogGroupStructured.png)
 
 Using this you should be able to add all the fields/information you need to your logger and find all the infortmation needed to investigate you logs and find problems.
+
+Combined with the use of Logs Insights you are now able to just see the logs with the LogLevel Error for example by using:
+
+```C#
+fields @timestamp, @message
+| filter LogLevel = "Error"
+| sort @timestamp desc
+| limit 25
+```
+![Logs Insights](images/error_query.png)
